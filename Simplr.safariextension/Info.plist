@@ -58,6 +58,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://jakepaul.github.com/simplr/updates.plist</string>
 	<key>Website</key>
 	<string>http://jakepaul.com</string>
 </dict>
