@@ -1,9 +1,3 @@
-// var quiet = document.createElement('div');
-// quiet.setAttribute('id','quiet_tumblr_logo')
-// var logo = document.getElementById('logo');
-// logo.parentNode.insertBefore(quiet,logo);
-// document.getElementById('logo').style.display = 'none';
-// 
 jQuery.noConflict();
 
 jQuery(document).ready(function(){
@@ -25,8 +19,6 @@ jQuery(document).ready(function(){
   }
   
   jQuery('li.post.new_post + li.post.same_user_as_last').removeClass('same_user_as_last');
-  
-  
   
   if (path.match(/^\/tumblelog\/([^\/]+)$/)||path.match(/^\/dashboard$/)) {
     if (path.match(/^\/dashboard$/)) { path = ''; }
