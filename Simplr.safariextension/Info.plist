@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Jake Paul</string>
+	<key>CFBundleDisplayName</key>
+	<string>Simplr</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jakepaul.simplr</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.9.0</string>
+	<key>CFBundleVersion</key>
+	<string>0.9.0</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Blacklist</key>
+		<array>
+			<string>http://www.tumblr.com/tumblelog/*/new/*</string>
+		</array>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>jquery.js</string>
+				<string>tumblr.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>global.css</string>
+			<string>dashboard.css</string>
+			<string>menu.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>http://www.tumblr.com/dashboard</string>
+			<string>http://www.tumblr.com/dashboard/*</string>
+			<string>http://www.tumblr.com/tumblelog/*</string>
+			<string>http://www.tumblr.com/likes</string>
+			<string>http://www.tumblr.com/drafts</string>
+			<string>http://www.tumblr.com/queue</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>A simpler Tumblr dashboard</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://jakepaul.com</string>
+</dict>
+</plist>
