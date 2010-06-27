@@ -48,6 +48,18 @@
 	border-radius: 4px !important;
 }
 
+#nav .nav_item div .nav_item_menu_arrow {
+	vertical-align: 3px !important;
+	width: 7px !important;
+	height: 4px !important;
+	margin-left: 5px !important;
+	opacity: 0.8 !important;
+}
+
+#nav #account_nav_item:hover div .nav_item_menu_arrow {
+	opacity: 0.6 !important;
+}
+
 .user_menu_info {
 	opacity: 0 !important;
 }
