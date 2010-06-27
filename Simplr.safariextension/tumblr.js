@@ -7,6 +7,7 @@ jQuery(document).ready(function(){
   var path = window.location.pathname;
   
   if (path.match(/^\/dashboard/)) {
+    jQuery('li.post.is_mine .post_controls').after('<div class="post_info"><a href="#">You</a>:</div>');
     permalink_replace();
     
     // Uncomment to loop the permalink replace function so that it works with endless scrolling.
@@ -57,8 +58,10 @@ function permalink_replace() {
     if (info.length) {
       info.children('a:first').attr('href', url)
     } else {
-      user = post.prevAll(':not(.same_user_as_last):first .post_info a:first').html();
-      post.find('.post_controls').after('<div class="post_info"><a href="'+url+'">'+user+'</a>:</div>');
+      if (!post.hasClass('is_mine')) {
+        user = post.prevAll(':not(.same_user_as_last):first .post_info a:first').html();
+        post.find('.post_controls').after('<div class="post_info"><a href="'+url+'">'+user+'</a>:</div>');
+      } 
     }
   });
 }
