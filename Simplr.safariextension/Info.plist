@@ -11,9 +11,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.9.1</string>
+	<string>0.9.2</string>
 	<key>CFBundleVersion</key>
-	<string>0.9.1</string>
+	<string>0.9.2</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -59,7 +59,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://jakepaul.github.com/simplr/updates.plist</string>
+	<string>http://jakepaul.com/downloads/simplr/updates.plist</string>
 	<key>Website</key>
 	<string>http://jakepaul.com</string>
 </dict>
