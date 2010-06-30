@@ -59,7 +59,7 @@ function permalink_replace() {
       info.children('a:first').attr('href', url)
     } else {
       if (!post.hasClass('is_mine')) {
-        user = post.prevAll(':not(.same_user_as_last):first .post_info a:first').html();
+        user = post.prevAll(':not(.same_user_as_last):first').find('.post_info a:first').html();
         post.find('.post_controls').after('<div class="post_info"><a href="'+url+'">'+user+'</a>:</div>');
       } 
     }
