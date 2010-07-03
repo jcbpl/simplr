@@ -9,7 +9,8 @@ body {
 
 #right_column div.dashboard_nav_item:nth-of-type(5),
 #right_column div.dashboard_nav_item:nth-of-type(6),
-#right_column div.dashboard_nav_item:nth-of-type(7) {
+#right_column div.dashboard_nav_item:nth-of-type(7),
+#right_column div.dashboard_nav_item:nth-of-type(8) {
 	display: none !important;
 }
 
