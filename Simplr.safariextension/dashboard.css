@@ -67,7 +67,7 @@ ol#posts li.post .arrow {
 }
 .new_post_notice {
 	font-weight: normal !important;
-	background-color: #1f354c !important;
+	background-color: #1a1a1a !important;
 	font-family: Helvetica !important;
 	border-radius: 4px !important;
 	top: 27px !important;
@@ -83,7 +83,7 @@ ol#posts li.post:hover .permalink {
 
 #right_column .dashboard_nav_item.short.active {
 	background-image: none !important;
-	background-color: #27425d !important;
+	background-color: #303030 !important;
 	color: #fff !important;
 }
 
@@ -157,16 +157,16 @@ li.post.new_post + li.post {
 
 #right_column a#dashboard_switch_blog_menu_current:hover {
 	color: #fff;
-	background: #27425d !important;
+	background: #303030 !important;
 }
 
 #right_column a#dashboard_switch_blog_menu_current #dashboard_switch_blog_arrow_current {
-	background: #2c4762 !important;
+	background: #1A1A1A !important;
 	border-radius: 4px !important;
 }
 
 #right_column a#dashboard_switch_blog_menu_current:hover #dashboard_switch_blog_arrow_current {
-	background: #27425d !important;
+	background: #303030 !important;
 }
 
 #right_column #dashboard_switch_blog_menu_wrapper #dashboard_switch_blog_menu a#dashboard_switch_blog_menu_header #dashboard_switch_blog_arrow_and_divider {
