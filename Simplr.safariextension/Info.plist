@@ -5,9 +5,9 @@
 	<key>Author</key>
 	<string>Jake Paul</string>
 	<key>CFBundleDisplayName</key>
-	<string>Simplr</string>
+	<string>Simplr Black</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.jakepaul.simplr</string>
+	<string>com.jakepaul.simplrBlack</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
