@@ -28,7 +28,7 @@ ol#posts li.post .arrow {
 	display: none !important;
 }
 
-#right_column .dashboard_nav_item.active img.arrow {
+#right_column .dashboard_nav_item.active .arrow {
 	display: none !important;
 }
 
@@ -73,7 +73,7 @@ ol#posts li.post .arrow {
 	top: 27px !important;
 	border: none !important;
 }
-.new_post_notice img {
+.new_post_notice .new_post_notice_nipple {
 	display: none !important;
 }
 
@@ -95,46 +95,21 @@ ol#posts li.post:hover .permalink {
 	color: #F7F8FC !important;
 }
 
-#right_column .dashboard_nav_item.active img.dude {
-	display: inline !important;
+#right_column .dashboard_nav_item.active .dude {
+	background-position: 0 0 !important;
 }
 
-#right_column .dashboard_nav_item.active img.dude.active {
-	display: none !important;
+
+#right_column .dashboard_nav_item.active:hover .icon.gear{
+	background-position:0 -20px;
 }
 
-#right_column .dashboard_nav_item.active:hover .gear.active {
-	display: none !important;
-}
-
-#right_column .dashboard_nav_item.active .gear.active:hover {
-	display: none !important;
-}
-
-#right_column .dashboard_nav_item.active:hover .gear.inactive {
-	width: 17px !important;
-	height: 17px !important;
-	bottom: 8px !important;
-	right: 10px !important;
-	display: inline !important;
-}
-
-#right_column .dashboard_nav_item.active .gear.inactive:hover {
-	opacity: 1 !important;
-	filter: alpha(opacity=100) !important;
-	-moz-opacity: 1 !important;
-}
-
-#right_column .dashboard_nav_item.active img.heart {
-	display: inline !important;
-}
-
-#right_column .dashboard_nav_item.active img.heart.active {
-	display: none !important;
+#right_column .dashboard_nav_item.active .heart {
+	background-position:0 -40px !important;
 }
 
 #right_column .dashboard_nav_item:first-child {
-	background: none !important;
+	background-image: none;
 }
 
 ol#posts li.post .post_info, ol#posts li.post .post_controls {
