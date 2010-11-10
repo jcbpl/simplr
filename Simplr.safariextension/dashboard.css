@@ -101,7 +101,7 @@ ol#posts li.post:hover .permalink {
 
 
 #right_column .dashboard_nav_item.active:hover .icon.gear{
-	background-position:0 -20px;
+	background-position:0 -20px !important;
 }
 
 #right_column .dashboard_nav_item.active .heart {
@@ -109,7 +109,7 @@ ol#posts li.post:hover .permalink {
 }
 
 #right_column .dashboard_nav_item:first-child {
-	background-image: none;
+	background-image: none !important;
 }
 
 ol#posts li.post .post_info, ol#posts li.post .post_controls {
