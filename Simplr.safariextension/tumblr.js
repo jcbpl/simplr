@@ -51,7 +51,7 @@ jQuery(document).ready(function(){
 
 function permalink_replace() {
   jQuery('.permalink').each(function(){
-    url = jQuery(this).parent().attr('href');
+    url = jQuery(this).attr('href');
     post = jQuery(this).parents('li.post');
     info = post.find('.post_info')
     if (info.length) {
