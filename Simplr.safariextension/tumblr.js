@@ -8,15 +8,6 @@ jQuery(document).ready(function(){
   
   if (path.match(/^\/dashboard/)) {
     permalink_replace();
-    
-    // Uncomment to loop the permalink replace function so that it works with endless scrolling.
-    // Obviously, this will have a measurable impact on performance, which is why it's not enabled by default.
-    // It's also quite a hack: there's probably a much better way to do this, but I don't use endless 
-    // scrolling so I'm not going to figure it out.
-    
-    // if (jQuery('#auto_pagination_loader').length != 0) {
-    //   loop_permalink_replace();
-    // }
   }
   
   if (path.match(/^\/tumblelog\/([^\/]+)$/)||path.match(/^\/dashboard$/)) {
