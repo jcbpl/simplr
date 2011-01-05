@@ -60,13 +60,13 @@ function permalink_replace() {
 
 // Thanks Stack Overflow for this one: (http://stackoverflow.com/questions/1448652/run-function-once-per-event-burst-with-jquery)
 // We'll get a DOMSubtreeModified event for each post, so unbind after the first and fire the permalink code after 10ms (DOM appends are really fast, so this is enough time for the changes to take place.)
-// This ensures we only fire once per pagination.
+// This ensures we only fire once per batch of DOM appends.
 function permalink_replace_and_watch() {
-  permalink_replace();
   if (jQuery('#auto_pagination_loader').length != 0) {
     jQuery('#posts').bind('DOMSubtreeModified',function(){
       jQuery(this).unbind('DOMSubtreeModified');
       setTimeout(permalink_replace_and_watch, 10);
     });
   }
+  permalink_replace();
 }
