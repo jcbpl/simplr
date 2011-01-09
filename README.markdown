@@ -1,6 +1,8 @@
 ### Simplr ###
 
-Simplr is a Safari extension for a simpler Tumblr dashboard. It was created by [Jake Paul](http://blog.jakepaul.com).
+Simplr is a Safari extension for a simpler Tumblr dashboard. Created by [Jake Paul](http://blog.jakepaul.com).
+
+[Christopher Bowns](http://cbowns.com/) contributed a permalink replacement function that works with endless scrolling.
 
 [Download Simplr](http://jakepaul.com/downloads/simplr/simplr.safariextz.zip)
 
